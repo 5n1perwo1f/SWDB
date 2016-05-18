@@ -19,7 +19,27 @@
 --		DJSniperwolf
 -- --------------------------------------------------------
 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+CREATE TABLE IF NOT EXISTS `ability` (
+  `KeyName` varchar(255) NOT NULL,
+  `Name` text NOT NULL,
+  `Description` text NOT NULL,
+  `IconID` int(11) NOT NULL,
+  `Implementation` text,
+  `Ability_ID` varchar(255) NOT NULL,
+  `AbilityID` int(11) NOT NULL AUTO_INCREMENT,
+  `InternalID` int(11) DEFAULT NULL,
+  `LastTimeRowUpdated` datetime NOT NULL DEFAULT '2000-01-01 00:00:00',
+  PRIMARY KEY (`AbilityID`),
+  UNIQUE KEY `KeyName` (`KeyName`)
+) ENGINE=InnoDB AUTO_INCREMENT=214 DEFAULT CHARSET=utf8;
+
+-- Dumping data for table dolserv.ability: ~213 rows (approximately)
+DELETE FROM `ability`;
 /*!40000 ALTER TABLE `ability` DISABLE KEYS */;
 INSERT INTO `ability` (`KeyName`, `Name`, `Description`, `IconID`, `Implementation`, `Ability_ID`, `AbilityID`, `InternalID`, `LastTimeRowUpdated`) VALUES
 	('Adrenaline Rush', 'Adrenaline Rush', 'Doubles the base melee damage for 20 seconds.', 3001, 'DOL.GS.RealmAbilities.AdrenalineRushAbility', '27', 1, NULL, '2000-01-01 00:00:00'),
