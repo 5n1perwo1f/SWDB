@@ -43,7 +43,6 @@ CREATE TABLE IF NOT EXISTS `area` (
   PRIMARY KEY (`Area_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- Dumping data for table dolserv.area: ~22 rows (approximately)
 DELETE FROM `area`;
 /*!40000 ALTER TABLE `area` DISABLE KEYS */;
 INSERT INTO `area` (`Area_ID`, `Description`, `X`, `Y`, `Z`, `Radius`, `Region`, `ClassType`, `CanBroadcast`, `Sound`, `CheckLOS`, `Points`, `TranslationId`, `LastTimeRowUpdated`) VALUES

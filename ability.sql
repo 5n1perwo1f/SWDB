@@ -17,6 +17,7 @@
 --		This database shall be used for it's intended purpose only.
 --		
 --		DJSniperwolf
+--		Bitcoin:  13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -38,7 +39,6 @@ CREATE TABLE IF NOT EXISTS `ability` (
   UNIQUE KEY `KeyName` (`KeyName`)
 ) ENGINE=InnoDB AUTO_INCREMENT=214 DEFAULT CHARSET=utf8;
 
--- Dumping data for table dolserv.ability: ~213 rows (approximately)
 DELETE FROM `ability`;
 /*!40000 ALTER TABLE `ability` DISABLE KEYS */;
 INSERT INTO `ability` (`KeyName`, `Name`, `Description`, `IconID`, `Implementation`, `Ability_ID`, `AbilityID`, `InternalID`, `LastTimeRowUpdated`) VALUES
@@ -255,6 +255,7 @@ INSERT INTO `ability` (`KeyName`, `Name`, `Description`, `IconID`, `Implementati
 	('Wild Minion', 'Wild Minion', 'Increases chance of pet dealing a critical hit in melee by the listed percentage.', 0, 'DOL.GS.RealmAbilities.WildMinionAbility', '18', 211, NULL, '2000-01-01 00:00:00'),
 	('Wild Power', 'Wild Power', 'Increases chance to deal a critical hit with all spells that do damage, including DoTs, by listed percentage.', 0, 'DOL.GS.RealmAbilities.WildPowerAbility', '16', 212, NULL, '2000-01-01 00:00:00'),
 	('Wrath of Champions', 'Wrath of Champions', 'Spirit Based instantly cast PBAE with 150 radius that does the listed damage.', 3023, 'DOL.GS.RealmAbilities.WrathofChampionsAbility', '47', 213, NULL, '2000-01-01 00:00:00');
+
 /*!40000 ALTER TABLE `ability` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

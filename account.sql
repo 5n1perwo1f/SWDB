@@ -17,6 +17,7 @@
 --		This database shall be used for it's intended purpose only.
 --		
 --		DJSniperwolf
+--		Bitcoin Address: 13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -41,6 +42,7 @@ CREATE TABLE IF NOT EXISTS `account` (
   `LastTimeRowUpdated` datetime NOT NULL DEFAULT '2000-01-01 00:00:00',
   PRIMARY KEY (`Name`),
   UNIQUE KEY `Account_ID` (`Account_ID`)
+
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40000 ALTER TABLE `ability` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
