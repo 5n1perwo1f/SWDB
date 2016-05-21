@@ -25,22 +25,23 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
-CREATE TABLE IF NOT EXISTS `appeal` (
-  `Name` varchar(255) NOT NULL,
-  `Account` varchar(255) NOT NULL,
-  `Severity` int(11) NOT NULL,
-  `Status` text NOT NULL,
-  `Timestamp` text NOT NULL,
-  `Text` text NOT NULL,
-  `Appeal_ID` varchar(255) NOT NULL,
+CREATE TABLE IF NOT EXISTS `bugreport` (
+  `ID` int(11) NOT NULL,
+  `Message` text NOT NULL,
+  `Submitter` text NOT NULL,
+  `DateSubmitted` datetime NOT NULL DEFAULT '2000-01-01 00:00:00',
+  `ClosedBy` text NOT NULL,
+  `DateClosed` datetime NOT NULL DEFAULT '2000-01-01 00:00:00',
+  `Category` text,
+  `BugReport_ID` varchar(255) DEFAULT NULL,
   `LastTimeRowUpdated` datetime NOT NULL DEFAULT '2000-01-01 00:00:00',
-  PRIMARY KEY (`Appeal_ID`),
-  KEY `Name` (`Name`),
-  KEY `Account` (`Account`)
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `BugReport_ID` (`BugReport_ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-/*!40000 ALTER TABLE `appeal` DISABLE KEYS */;
-/*!40000 ALTER TABLE `appeal` ENABLE KEYS */;
+DELETE FROM `bugreport`;
+/*!40000 ALTER TABLE `bugreport` DISABLE KEYS */;
+/*!40000 ALTER TABLE `bugreport` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

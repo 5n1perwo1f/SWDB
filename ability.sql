@@ -5,7 +5,7 @@
 --		and to the architecture used to design, store, and compile this database.
 --		
 --		This Database is provided to the public to be used in conjunction with the Dawn of Light
---		server software.  This can be obtained from www.dawnoflight.com.
+--		server software.  This can be obtained from www.dolserver.net.
 --
 --		This database can not be used in anyway to publish a profitable DAoC server.  This Database
 -- 		is free, as such, should be used in providing a free service to it's users.  Any modifications made
@@ -17,7 +17,7 @@
 --		This database shall be used for it's intended purpose only.
 --		
 --		DJSniperwolf
---		Bitcoin:  13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
+--		Bitcoin Address: 13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
