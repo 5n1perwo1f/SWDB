@@ -18,7 +18,7 @@
 --		This database shall be used for it's intended purpose only.
 --		
 --		DJSniperwolf
---		Bitcoin Address: 13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
+--		Bitcoin Address: 1FhXJv2cZSudmV6N97am3wy63STxKRTGTD
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;

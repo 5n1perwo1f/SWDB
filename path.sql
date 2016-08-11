@@ -17,7 +17,7 @@
 --		This database shall be used for it's intended purpose only.
 --		
 --		DJSniperwolf
---		Bitcoin Address: 13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
+--		Bitcoin Address: 1FhXJv2cZSudmV6N97am3wy63STxKRTGTD
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -43,6 +43,7 @@ INSERT INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUpd
 	('03709a5f-90ad-421b-8bab-545d349ae272', 'bt_theisle_fintain', 1, 0, '2000-01-01 00:00:00'),
 	('064d3884-0ded-41e3-b6ca-54d818cb187c', 'hs_galplen_gnafaste', 1, 0, '2015-12-06 08:36:34'),
 	('0a759622-047e-41dc-b6b6-16582d983889', 'hs_huginfell_audliten', 1, 0, '2015-12-06 07:11:10'),
+	('0ab0f4e5-d849-43e4-9873-84e31637a7ce', 'wp_ludlow_packhorseguardsman', 2, 0, '2015-03-03 00:55:46'),
 	('0c374080-39c4-40ce-906c-a4ec717af302', 'DFMutilatorAxalnamPatrol1', 2, 0, '2000-01-01 00:00:00'),
 	('0c413f28-92a3-4320-90bc-fa28208454fb', 'hs_huginfell_dvalin', 1, 0, '2015-12-06 07:17:02'),
 	('0e58859c-c37a-4080-b14a-cce8fc014de0', 'hs_riley_fintain', 1, 0, '2000-01-01 00:00:00'),
@@ -249,7 +250,6 @@ INSERT INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUpd
 	('alb_wp_llynbarfog_tewdwr', 'wp_llynbarfog_tewdwr', 3, 0, '2015-02-18 06:26:41'),
 	('alb_wp_ludlow_graham', 'wp_ludlow_graham', 2, 0, '2015-03-03 00:47:51'),
 	('alb_wp_ludlow_packhorse', 'wp_ludlow_packhorse', 2, 0, '2015-03-03 01:01:44'),
-	('alb_wp_ludlow_packhorseguardsman', 'wp_ludlow_packhorseguardsman', 2, 0, '2015-03-03 00:55:46'),
 	('alb_wp_mithra_agedbleeder', 'wp_mithra_agedbleeder', 3, 0, '2015-02-03 07:48:30'),
 	('alb_wp_mithra_botchedsacrifice1', 'wp_mithra_botchedsacrifice1', 3, 0, '2015-02-03 07:15:43'),
 	('alb_wp_mithra_cadaver1', 'wp_mithra_cadaver1', 3, 0, '2015-02-03 07:04:54'),
