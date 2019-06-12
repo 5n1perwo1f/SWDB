@@ -1,8 +1,23 @@
 -- --------------------------------------------------------
--- Host:                         localhost
--- Server version:               5.7.24 - MySQL Community Server (GPL)
--- Server OS:                    Win64
--- HeidiSQL Version:             10.1.0.5464
+-- 		Sniperwolf Public DAoC Database
+-- 		
+-- 		Donations are accepted.  All proceeds are used to further the development of this database
+--		and to the architecture used to design, store, and compile this database.
+--		
+--		This Database is provided to the public to be used in conjunction with the Dawn of Light
+--		server software.  This can be obtained from www.dolserver.net.
+--
+--		This database can not be used in anyway to publish a profitable DAoC server.  This Database
+-- 		is free, as such, should be used in providing a free service to it's users.  Any modifications made
+--		to this database shall be done so for your own private enjoyment.  If you wish to publish said changes,
+--		Please contact me directly.
+--
+--		If you decide to import this database into an SQL server, you are agreeing to the above statements.
+--
+--		This database shall be used for it's intended purpose only.
+--		
+--		DJSniperwolf
+--		Bitcoin Address for Donations: 13fvYvcUcNZDTcLkwrNV3y3MWMLZrpA9QG
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,9 +37,9 @@ CREATE TABLE IF NOT EXISTS `path` (
   UNIQUE KEY `U_Path_PathID` (`PathID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table dolserv.path: ~342 rows (approximately)
+-- Dumping data for table dolserv.path: ~344 rows (approximately)
 /*!40000 ALTER TABLE `path` DISABLE KEYS */;
-REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUpdated`) VALUES
+INSERT INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUpdated`) VALUES
 	('0017170b-5dd6-4c25-b0e2-cf2b070ba656', 'hs_fintain_altacoill', 1, 0, '2000-01-01 00:00:00'),
 	('01ada662-51f1-41cf-a52f-cf2e6851ae78', 'hs_gothwaite_caerdiogel', 1, 0, '2000-01-01 00:00:00'),
 	('03709a5f-90ad-421b-8bab-545d349ae272', 'bt_theisle_fintain', 1, 0, '2000-01-01 00:00:00'),
@@ -65,14 +80,14 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('31bbe5b5-8528-472c-b827-dab160183e52', 'hs_fintain_riley', 1, 0, '2000-01-01 00:00:00'),
 	('31fa83e7-ba2d-4d2e-903e-d6ec94b1b7bc', 'hs_haggerfel_mularn', 1, 0, '2015-12-03 09:04:40'),
 	('34288348-2c78-4978-add8-981d63aa123c', 'hs_connla_tirnambeo', 1, 0, '2019-05-09 03:26:26'),
-	('36202f7f-b11b-43a0-9a9e-22ca01700d5d', 'hs_enter_caerwent', 1, 0, '2015-11-29 07:20:10'),
+	('36202f7f-b11b-43a0-9a9e-22ca01700d5d', 'hs_alis_gyrom', 1, 0, '2015-11-29 07:20:10'),
 	('37a42c50-60db-4a84-b6e1-a4825cdd8bd2', 'hs_caerulfwych_adribardsretreat', 1, 0, '2015-11-19 18:45:52'),
 	('3971c69e-c6b5-45ae-9699-d22966ac6a60', 'hs_westskona_gnafaste', 1, 0, '2015-12-06 09:07:51'),
 	('3a01991f-c8a2-42c9-8a8e-dbd6360f9e2d', 'BT_EmainMacha_MidgardCoast', 1, 0, '2000-01-01 00:00:00'),
 	('3c52ca70-c77d-468f-af5e-d583f84fccfc', 'BT_Uppland_HibernianCoast', 1, 0, '2000-01-01 00:00:00'),
 	('3c8f75b7-8a13-4f94-ab70-96aad2e30e7c', 'DFMalochianTempter2', 3, 0, '2000-01-01 00:00:00'),
 	('3d2e956b-1c14-477e-b2e7-8d58f00e7731', 'hs_audliten_vasudheim', 1, 0, '2015-12-05 18:09:16'),
-	('3f9ef376-6430-4285-b0c6-c6620bf159f9', 'hs_enter_dalton', 1, 0, '2015-11-29 07:29:22'),
+	('3f9ef376-6430-4285-b0c6-c6620bf159f9', 'hs_alis_alamdar', 1, 0, '2015-11-29 07:29:22'),
 	('3ff9e85c-67e6-4eee-bba5-6fbc814ef3d0', 'bt_fortatla_dvalin', 1, 0, '2015-12-23 07:02:57'),
 	('407472ac-1a92-4aa7-9fe9-c5ba9ac3bb9b', 'hs_gnafaste_westskona', 1, 0, '2015-12-06 09:18:29'),
 	('4282c028-425b-4c92-9c36-a54d31c688e1', 'bt_fortatla_nalliten', 1, 0, '2015-12-23 06:38:41'),
@@ -84,6 +99,7 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('4d9ab78c-cf95-4ef5-8c9f-fde3e77eaf9c', 'path_island_hafheim', 1, 0, '2000-01-01 00:00:00'),
 	('4e038686-1176-43d8-a149-98c66ec1528f', 'BT_Snowdonia_HibernianCoast', 1, 0, '2000-01-01 00:00:00'),
 	('4ea1e326-7bb0-4430-8dfb-5675ad09ff92', 'BT_PennineMountains_HibernianCoast', 1, 0, '2000-01-01 00:00:00'),
+	('4fb853da-c6af-451a-a117-40eecd29f18d', 'wp_muiretomb_hellhag', 3, 0, '2019-06-12 01:41:21'),
 	('51c584df-18f5-45fb-8f27-49dd5507e045', 'hs_vindsaulfaste_raumarik', 1, 0, '2015-12-05 20:19:14'),
 	('51ebec39-f357-4675-abc8-dbf4b4df937f', 'bt_fortatla_audliten', 1, 0, '2015-12-23 06:51:45'),
 	('522f2201-ca3f-44ec-b2a2-0f26247babae', 'bt_dvalin_fortatla', 1, 0, '2015-12-23 07:42:58'),
@@ -112,6 +128,7 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('7d916dea-99f0-4bd0-b077-20cde2714322', 'path_halgost_ulvastad', 1, 0, '2000-01-01 00:00:00'),
 	('7f3c3681-cadb-4500-81b5-85362c8b5ceb', 'hs_altacoill_fintain', 1, 0, '2000-01-01 00:00:00'),
 	('7f5da959-78eb-4eb4-a943-52744cf33d38', 'hs_vasudheim_mularn', 1, 0, '2015-12-03 17:31:13'),
+	('7fe3dc82-a38d-4f0a-be3b-8e39b430a66e', 'hs_alis_cora', 1, 0, '2019-06-08 12:17:23'),
 	('7febc888-1e80-4e73-b2ad-b523cc6bdffd', 'BT_Snowdonia_MidgardCoast', 1, 0, '2000-01-01 00:00:00'),
 	('80cf0369-a5ff-48ae-a336-77cae7480b8a', 'Raumarik_Scenic_LoopLarsson', 1, 0, '2000-01-01 00:00:00'),
 	('825656ce-6b34-43d8-a606-a53485b37f2e', 'bt_prydwen_cotswold', 1, 0, '2016-07-01 15:41:37'),
@@ -124,6 +141,7 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('8b3063de-7ca2-4e64-9e74-9ef1e48c6b77', 'path_hafheim_ulvastad', 1, 0, '2000-01-01 00:00:00'),
 	('8d06fbec-80ba-4cbc-990e-845f9fb9a973', 'path_riley_fintain', 1, 0, '2000-01-01 00:00:00'),
 	('8d90933f-3700-49be-9150-bc127bc72881', 'path_hs_holtham_finnen', 1, 0, '2000-01-01 00:00:00'),
+	('917291ea-7911-4a81-b21d-d724d2ecabbf', 'hs_alis_itis', 1, 0, '2019-06-08 11:51:38'),
 	('92196502-4007-4e16-8f06-81d108c4e2f6', 'hs_cailelle_gothwaite', 1, 0, '2015-03-03 05:49:39'),
 	('95288833-c101-4d4d-a971-7489d4def3d2', 'path_theisle_fintain', 1, 0, '2000-01-01 00:00:00'),
 	('9d46135c-37ea-4912-a300-2b871ad0a67b', 'path_hafheim_halgost', 1, 0, '2000-01-01 00:00:00'),
@@ -231,7 +249,6 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('alb_wp_camelot_albionrunner', 'wp_camelot_albionrunner', 3, 0, '2015-02-05 18:54:36'),
 	('alb_wp_camelot_bob', 'wp_camelot_bob', 2, 0, '2015-12-09 23:15:26'),
 	('alb_wp_camelot_gene', 'wp_camelot_gene', 2, 0, '2015-12-09 23:06:08'),
-	('alb_wp_camelot_packguardhorse', 'wp_camelot_packguardhorse', 3, 0, '2015-02-03 18:15:17'),
 	('alb_wp_camelot_sirbeckham', 'wp_camelot_sirbeckham', 3, 0, '2015-02-03 18:24:01'),
 	('alb_wp_campacorentinforest_huntsman', 'wp_campacorentinforest_huntsman', 3, 0, '2015-02-12 18:32:25'),
 	('alb_wp_campacorentinforest_huntsman2', 'wp_campacorentinforest_huntsman2', 3, 0, '2015-02-12 18:16:33'),
@@ -292,6 +309,7 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('bt_holtham_isle', 'bt_holtham_isle', 1, 0, '2000-01-01 00:00:00'),
 	('bt_isle_holtham', 'bt_isle_holtham', 1, 0, '2000-01-01 00:00:00'),
 	('c1b136ca-1515-47d6-8db5-bb368a279bdc', 'hs_svasudfaste_mularn', 1, 0, '2015-12-18 21:54:38'),
+	('c2ebb386-542a-4fc2-85f7-84fcf927e743', 'wp_camelot_packguardhorse', 2, 0, '2019-06-02 09:43:50'),
 	('c3226cfa-7722-4248-9846-fecad9de36e0', 'BT_ForestSauvage_MidgardCoast', 1, 0, '2000-01-01 00:00:00'),
 	('c45455f7-df56-44ef-a8d8-6f471be21409', 'hs_raumarik_huginfell', 1, 0, '2015-12-05 20:47:52'),
 	('c786d763-efa3-4dfc-9e08-cbc8a220cad2', 'hs_westdowns_castlesauvage', 1, 0, '2015-11-19 18:08:08'),
@@ -335,7 +353,6 @@ REPLACE INTO `path` (`Path_ID`, `PathID`, `PathType`, `RegionID`, `LastTimeRowUp
 	('hib_hs_magmell_ardee', 'hs_magmell_ardee', 1, 0, '2019-05-03 16:31:04'),
 	('hib_hs_magmell_parthananfarm', 'hs_magmell_parthananfarm', 1, 0, '2000-01-01 00:00:00'),
 	('hib_hs_magmell_tirnambeo', 'hs_magmell_tirnambeo', 1, 0, '2019-05-04 06:12:07'),
-	('hib_wp_muiretomb_hellhag', 'wp_muiretomb_hellhag', 3, 0, '2019-05-19 04:43:20'),
 	('hs_newavalon_finnen', 'hs_newavalon_finnen', 1, 0, '2000-01-01 00:00:00'),
 	('hs_newavalon_holtham', 'hs_newavalon_holtham', 1, 0, '2000-01-01 00:00:00'),
 	('mid_hs_dvalin_audliten', 'hs_dvalin_audliten', 1, 0, '2015-12-05 18:44:46'),
