@@ -16,8 +16,8 @@
 --
 --		This database shall be used for it's intended purpose only.
 --		
---		DJSniperwolf
---		Bitcoin Address: 13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
+--		5n1perwo1f
+--		hupt2.wam
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
