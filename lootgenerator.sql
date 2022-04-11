@@ -1,13 +1,10 @@
 -- --------------------------------------------------------
--- 		Sniperwolf Public DAoC Database
+-- 		5n1perwo1f Dark-Age Database
 -- 		
 -- 		Donations are accepted.  All proceeds are used to further the development of this database
---		and to the architecture used to design, store, and compile this database.
---		
---		This Database is provided to the public to be used in conjunction with the Dawn of Light
---		server software.  This can be obtained from www.dolserver.net.
+--		and to the architecture used to design, store, and compile this database.		
 --
---		This database can not be used in anyway to publish a profitable DAoC server.  This Database
+--		This database can not be used in anyway to publish a profitable Dark-Age server.  This Database
 -- 		is free, as such, should be used in providing a free service to it's users.  Any modifications made
 --		to this database shall be done so for your own private enjoyment.  If you wish to publish said changes,
 --		Please contact me directly.
@@ -16,8 +13,8 @@
 --
 --		This database shall be used for it's intended purpose only.
 --		
---		DJSniperwolf
---		Bitcoin Address: 1FhXJv2cZSudmV6N97am3wy63STxKRTGTD
+--		5n1perwo1f
+--		hupt2.wam
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -40,12 +37,12 @@ CREATE TABLE IF NOT EXISTS `lootgenerator` (
 DELETE FROM `lootgenerator`;
 /*!40000 ALTER TABLE `lootgenerator` DISABLE KEYS */;
 INSERT INTO `lootgenerator` (`LootGenerator_ID`, `MobName`, `MobGuild`, `MobFaction`, `LootGeneratorClass`, `ExclusivePriority`, `RegionID`, `LastTimeRowUpdated`) VALUES
-	('ff815768-8070-11e4-ad65-f46d048dc4b5', NULL, 'Epic Encounter', NULL, 'DOL.GS.LootGeneratorDragonscales', 0, 0, '2000-01-01 00:00:00'),
-	('money', NULL, NULL, NULL, 'DOL.GS.LootGeneratorMoney', 0, 0, '2000-01-01 00:00:00'),
-	('otd', NULL, NULL, NULL, 'DOL.GS.LootGeneratorOneTimeDrop', 0, 0, '2000-01-01 00:00:00'),
-	('scroll', NULL, NULL, NULL, 'DOL.GS.LootGeneratorScroll', 0, 0, '2000-01-01 00:00:00'),
-	('template', NULL, NULL, NULL, 'DOL.GS.LootGeneratorTemplate', 0, 0, '2000-01-01 00:00:00'),
-	('unique', NULL, NULL, NULL, 'DOL.GS.LootGeneratorUniqueItem', 0, 0, '2000-01-01 00:00:00');
+	('ff815768-8070-11e4-ad65-f46d048dc4b5', NULL, 'Epic Encounter', NULL, 'GS.LootGeneratorDragonscales', 0, 0, '2000-01-01 00:00:00'),
+	('money', NULL, NULL, NULL, 'GS.LootGeneratorMoney', 0, 0, '2000-01-01 00:00:00'),
+	('otd', NULL, NULL, NULL, 'GS.LootGeneratorOneTimeDrop', 0, 0, '2000-01-01 00:00:00'),
+	('scroll', NULL, NULL, NULL, 'GS.LootGeneratorScroll', 0, 0, '2000-01-01 00:00:00'),
+	('template', NULL, NULL, NULL, 'GS.LootGeneratorTemplate', 0, 0, '2000-01-01 00:00:00'),
+	('unique', NULL, NULL, NULL, 'GS.LootGeneratorUniqueItem', 0, 0, '2000-01-01 00:00:00');
 
 /*!40000 ALTER TABLE `lootgenerator` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
