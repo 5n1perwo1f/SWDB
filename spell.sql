@@ -1,13 +1,10 @@
-﻿-- --------------------------------------------------------
--- 		Sniperwolf Public DAoC Database
+-- --------------------------------------------------------
+-- 		5n1perwo1f Dark-Age Database
 -- 		
 -- 		Donations are accepted.  All proceeds are used to further the development of this database
---		and to the architecture used to design, store, and compile this database.
---		
---		This Database is provided to the public to be used in conjunction with the Dawn of Light
---		server software.  This can be obtained from www.dolserver.net.
+--		and to the architecture used to design, store, and compile this database.		
 --
---		This database can not be used in anyway to publish a profitable DAoC server.  This Database
+--		This database can not be used in anyway to publish a profitable Dark-Age server.  This Database
 -- 		is free, as such, should be used in providing a free service to it's users.  Any modifications made
 --		to this database shall be done so for your own private enjoyment.  If you wish to publish said changes,
 --		Please contact me directly.
@@ -16,8 +13,8 @@
 --
 --		This database shall be used for it's intended purpose only.
 --		
---		DJSniperwolf
---		Bitcoin Address: 13vgcafFBTKr7FS9TQDYupkU5KVtS4RmEs
+--		5n1perwo1f
+--		hupt2.wam
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -3324,7 +3321,7 @@ INSERT INTO `spell` (`Spell_ID`, `SpellID`, `ClientEffect`, `Icon`, `Name`, `Des
 	('Bainshee RR5 Leder', 36002, 7089, 3088, 'Sonic Barrier', 'Increases the armor ABS of all groupmates for 45 seconds by a multiple of their existing ABS.', 'Realm', 2000, 0, 0, 0, 0, 'ArmorAbsorptionBuff', 45, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, '', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Public_DB', 0, 3245, '2000-01-01 00:00:00'),
 	('Bainshee RR5 Platte', 36005, 7089, 3088, 'Sonic Barrier', 'Increases the armor ABS of all groupmates for 45 seconds by a multiple of their existing ABS.', 'Realm', 2000, 0, 0, 0, 0, 'ArmorAbsorptionBuff', 45, 0, 0, 0, 0, 0, 0, 0, 34, 0, 0, 0, '', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Public_DB', 0, 3246, '2000-01-01 00:00:00'),
 	('Bainshee RR5 Stoff', 36001, 7089, 3088, 'Sonic Barrier', 'Increases the armor ABS of all groupmates for 45 seconds by a multiple of their existing ABS.', 'Realm', 2000, 0, 0, 0, 0, 'ArmorAbsorptionBuff', 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Public_DB', 0, 3247, '2000-01-01 00:00:00'),
-	('Bainshee RR5 VerstÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤rkt', 36003, 7089, 3088, 'Sonic Barrier', 'Increases the armor ABS of all groupmates for 45 seconds by a multiple of their existing ABS.', 'Realm', 2000, 0, 0, 0, 0, 'ArmorAbsorptionBuff', 45, 0, 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, '', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Public_DB', 0, 3248, '2000-01-01 00:00:00'),
+	('Bainshee RR5 VerstÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤rkt', 36003, 7089, 3088, 'Sonic Barrier', 'Increases the armor ABS of all groupmates for 45 seconds by a multiple of their existing ABS.', 'Realm', 2000, 0, 0, 0, 0, 'ArmorAbsorptionBuff', 45, 0, 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, '', '', NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Public_DB', 0, 3248, '2000-01-01 00:00:00'),
 	('BainsheeAba1', 13551, 13551, 13551, 'Audible Barrier', 'Adds a shield to recipient which will temporarily absorb some of the damage type specified.', 'Group', 1500, 15, 3, 30, 10, 'MagicAblativeArmor', 6, 0, 8, 0, 0, 8, 0, 0, 60, 0, 0, 0, '', '', '', '', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 22, 'Public_DB', 0, 3249, '2000-01-01 00:00:00'),
 	('BainsheeAba2', 13552, 13552, 13552, 'Tumultuous Barrier', 'Adds a shield to recipient which will temporarily absorb some of the damage type specified.', 'Group', 1500, 20, 3, 30, 10, 'MagicAblativeArmor', 6, 0, 8, 0, 0, 8, 0, 0, 90, 0, 0, 0, '', '', '', '', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 22, 'Public_DB', 0, 3250, '2000-01-01 00:00:00'),
 	('BainsheeAba3', 13553, 13553, 13553, 'Resounding Barrier', 'Adds a shield to recipient which will temporarily absorb some of the damage type specified.', 'Group', 1500, 25, 3, 30, 10, 'MagicAblativeArmor', 6, 0, 8, 0, 0, 8, 0, 0, 120, 0, 0, 0, '', '', '', '', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 22, 'Public_DB', 0, 3251, '2000-01-01 00:00:00'),

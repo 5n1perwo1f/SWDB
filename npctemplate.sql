@@ -1,13 +1,10 @@
-﻿-- --------------------------------------------------------
--- 		Sniperwolf Public DAoC Database
+-- --------------------------------------------------------
+-- 		5n1perwo1f Dark-Age Database
 -- 		
 -- 		Donations are accepted.  All proceeds are used to further the development of this database
---		and to the architecture used to design, store, and compile this database.
---		
---		This Database is provided to the public to be used in conjunction with the Dawn of Light
---		server software.  This can be obtained from www.dolserver.net.
+--		and to the architecture used to design, store, and compile this database.		
 --
---		This database can not be used in anyway to publish a profitable DAoC server.  This Database
+--		This database can not be used in anyway to publish a profitable Dark-Age server.  This Database
 -- 		is free, as such, should be used in providing a free service to it's users.  Any modifications made
 --		to this database shall be done so for your own private enjoyment.  If you wish to publish said changes,
 --		Please contact me directly.
@@ -16,8 +13,8 @@
 --
 --		This database shall be used for it's intended purpose only.
 --		
---		DJSniperwolf
---		Bitcoin Address: 1FhXJv2cZSudmV6N97am3wy63STxKRTGTD
+--		5n1perwo1f
+--		hupt2.wam
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -6237,7 +6234,7 @@ INSERT INTO `npctemplate` (`NpcTemplate_ID`, `TemplateId`, `Name`, `ClassType`, 
 	('98392728', 60162898, 'Kilro', 'DOL.GS.Trainer.ThaneTrainer', 'Thane Trainer', '159', '51', '50', 0, 'e536cde7-68a8-4267-a38b-3acecfafdc38', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 30, 30, 30, 30, 30, 30, 30, 30, NULL, 0, 500, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98392729', 60162899, 'Kimba', 'DOL.GS.GameNPC', '', '300', '51', '35', 200, 'f5f37026-57f8-4729-b7d1-d12607944780', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 245, 35, 70, 35, 30, 30, 30, 30, NULL, 35, 280, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98392730', 60162900, 'Kimbrisa', 'DOL.GS.Trainer.HereticTrainer', 'Heretic Trainer', '763', '48', '50', 191, 'ybu5t136-t5y7-ynw4-pg6d-129yelv9p306', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 266, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 0, 0, 0, 0, 0, 240, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
-	('98392731', 60162901, 'Kimmy Glaze', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ches', '82', '51', '40', 191, '', 'f9ba31df-5a32-4d77-b009-4d1d1434f2ba', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 206, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
+	('98392731', 60162901, 'Kimmy Glaze', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã‚Â©ches', '82', '51', '40', 191, '', 'f9ba31df-5a32-4d77-b009-4d1d1434f2ba', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 206, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98392732', 60162902, 'Kindara', 'DOL.GS.GameMerchant', 'Merchant', '377', '51', '35', 0, '1de7afbe-c14e-495b-9401-a0b70b21cae8', '90772c37-6596-4758-a17b-74aa1ce15147', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 245, 35, 70, 35, 30, 30, 30, 30, NULL, 35, 425, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98392733', 60162903, 'King', 'DOL.GS.GameNPC', '', '993', '62', '50', 191, '5bbdf057-7363-4652-b466-ce5c9f2e3fd0', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 266, 0, 0, 0, 0, 0, 0, 0, NULL, 60, 800, 0, 0, 0, 0, 34, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98392734', 60162904, 'King Constantine', 'DOL.GS.KingNPC', '', '2122', '65', '65', 200, '', '', 16, 2, NULL, NULL, NULL, NULL, NULL, NULL, 26, 30, 30, 30, 30, 30, 30, 30, NULL, 0, 0, 0, 0, 0, 0, 255, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
@@ -7039,7 +7036,7 @@ INSERT INTO `npctemplate` (`NpcTemplate_ID`, `TemplateId`, `Name`, `ClassType`, 
 	('98393530', 60163700, 'marine skrat', 'DOL.GS.GameNPC', '', '929', '59;62;58', '32;34', 191, '', '', 1, 2, NULL, NULL, NULL, NULL, NULL, NULL, 158, 0, 0, 0, 0, 0, 0, 0, NULL, 80, 500, 0, 0, 4000, 4000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98393531', 60163701, 'Mariota', 'DOL.GS.GameMerchant', 'Armor Merchant', '365', '52', '35', 0, 'b7e19026-12a6-4305-9a62-a99bf28e37ad', '548d6310-ceae-43b0-a3bb-b2219ffd6b00', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 245, 35, 70, 35, 30, 30, 30, 30, NULL, 35, 425, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98393532', 60163702, 'Marirun', 'DOL.GS.Enchanter', 'Enchanter', '219', '51', '41', 0, 'npc_marirun', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 266, 30, 30, 30, 30, 30, 30, 30, NULL, 0, 500, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
-	('98393533', 60163703, 'Marissa Fletchet', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ches', '6', '48', '48', 191, '', '92548d68-14c3-4320-950e-3c7bd0c46382', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 254, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
+	('98393533', 60163703, 'Marissa Fletchet', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã‚Â©ches', '6', '48', '48', 191, '', '92548d68-14c3-4320-950e-3c7bd0c46382', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 254, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98393534', 60163704, 'Marith Eyrsdottir', 'DOL.GS.Trainer.HealerTrainer', 'Healer Trainer', '216', '50', '58', 200, 'healer', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 406, 58, 116, 58, 30, 30, 30, 30, NULL, 58, 540, 0, 6, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98393535', 60163705, 'Marius Caest', 'DOL.GS.GameMerchant', 'Poison Merchant', '9', '50', '17', 0, 'MagMellLeena', '9704f11f-6082-47b6-bd9e-99fc72f27237', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 119, 30, 30, 30, 30, 30, 30, 30, NULL, 30, 335, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98393536', 60163706, 'Marjeta Mustanen', 'DOL.GS.Enchanter', 'Enchanter', '167', '50', '50', 200, 'ba900ac7-945f-411d-8576-c7c6669ed842', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 350, 50, 100, 50, 30, 30, 30, 30, NULL, 50, 0, 0, 6, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
@@ -8225,7 +8222,7 @@ INSERT INTO `npctemplate` (`NpcTemplate_ID`, `TemplateId`, `Name`, `ClassType`, 
 	('98394716', 60164886, 'Peridas', 'DOL.GS.GameNPC', '', '990', '50', '42', 191, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 218, 0, 0, 0, 0, 0, 0, 0, NULL, 60, 800, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394717', 60164887, 'Periwen', 'DOL.GS.GameNPC', '', '954', '52', '5', 191, 'bea4d9ef-7d01-4572-8baf-d1853ef6f471', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 50, 55, 30, 50, 40, 30, 30, 30, NULL, 60, 800, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394718', 60164888, 'pernicious pine imp', 'DOL.GS.GameNPC', '', '112', '29;28;31;32;30;33', '27;30;29;28', 200, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 197, 30, 30, 30, 30, 30, 30, 30, NULL, 28, 225, 0, 1, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
-	('98394719', 60164889, 'Perry', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ches', '216', '49', '50', 0, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 266, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
+	('98394719', 60164889, 'Perry', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã‚Â©ches', '216', '49', '50', 0, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 266, 0, 0, 0, 0, 0, 0, 0, NULL, 0, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394720', 60164890, 'perturbed bwca', 'DOL.GS.GameNPC', '', '112', '50;54;48;49;52;51', '28;30;27;29;26', 1, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 181, 0, 0, 0, 0, 0, 0, 0, NULL, 46, 500, 0, 0, 4000, 4000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394721', 60164891, 'Pester', 'DOL.GS.GameNPC', '', '819', '62', '55', 200, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 385, 55, 110, 55, 30, 30, 30, 30, NULL, 55, 440, 0, 7, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394722', 60164892, 'Pethos', 'DOL.GS.GameStableMaster', 'Stable Master', '8', '52', '4', 0, '', 'ffac7574-39d3-4f43-bc9c-95e8f2d81639', 16, 2, NULL, NULL, NULL, NULL, NULL, NULL, 30, 30, 30, 30, 30, 30, 30, 30, NULL, 0, 0, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
@@ -8451,7 +8448,7 @@ INSERT INTO `npctemplate` (`NpcTemplate_ID`, `TemplateId`, `Name`, `ClassType`, 
 	('98394942', 60165112, 'Radella Fletcher', 'DOL.GS.GameMerchant', 'Weapon Merchant', '82', '50', '15', 200, 'dc746790-acf3-4ace-927b-c587964c90cf', '24c7319b-b6bb-4702-a30f-c20812d0ce3e', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 105, 30, 30, 30, 30, 30, 30, 30, NULL, 30, 325, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394943', 60165113, 'Radgah', 'DOL.GS.GameHealer', 'Healer', '187', '52', '54', 0, '0dd87d4b-3036-4927-a218-86a4aad66540', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 378, 54, 108, 54, 30, 30, 30, 30, NULL, 54, 520, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394944', 60165114, 'Radgar', 'DOL.GS.GameMerchant', 'Armor Merchant', '213', '48', '41', 200, 'e2bb36f7-7e42-4a7e-9efb-7119ced08a9a', 'e1176b3c-7340-41a3-bf27-2af13a4e07fc', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 287, 41, 82, 41, 30, 30, 30, 30, NULL, 41, 455, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
-	('98394945', 60165115, 'Radni Steinbjorn', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ches', '233', '50', '59', 191, '', 'ad273152-ace5-4faf-b805-ac52fa59b9a1', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 330, 0, 0, 0, 0, 0, 0, 0, NULL, 80, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
+	('98394945', 60165115, 'Radni Steinbjorn', 'DOL.GS.GameMerchant', 'Marchand de flÃƒÆ’Ã‚Â©ches', '233', '50', '59', 191, '', 'ad273152-ace5-4faf-b805-ac52fa59b9a1', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 330, 0, 0, 0, 0, 0, 0, 0, NULL, 80, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394946', 60165116, 'Rae', 'DOL.GS.GameMerchant', 'Armor Merchant', '228', '50', '20', 200, 'cfb5432e-83c5-4bb5-b630-29ee39e21aa5', 'cb8f70b0-0b14-4233-b920-176264f18eb4', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 140, 30, 30, 30, 30, 30, 30, 30, NULL, 30, 350, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394947', 60165117, 'Ragar', 'DOL.GS.GameNPC', '', '32', '49', '18', 191, '7ra11194-45r7-whke-ydud-e7zuh6ltz573', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 128, 0, 0, 0, 0, 0, 0, 0, NULL, 60, 400, 0, 0, 0, 0, 34, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98394948', 60165118, 'rage sprite', 'DOL.GS.GameNPC', '', '633', '55', '20', 200, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 140, 30, 30, 30, 30, 30, 30, 30, NULL, 20, 160, 0, 1, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
@@ -10190,7 +10187,7 @@ INSERT INTO `npctemplate` (`NpcTemplate_ID`, `TemplateId`, `Name`, `ClassType`, 
 	('98396685', 60166855, 'Teama', 'DOL.GS.GameNPC', '', '66', '62', '52', 200, 'cbb92ae2-63cc-4cc0-9b00-5d048f60bf80', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 364, 52, 104, 52, 30, 30, 30, 30, NULL, 52, 416, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98396686', 60166856, 'Teaon', 'DOL.GS.GameNPC', '', '33738', '50', '46', 84, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 242, 0, 0, 0, 0, 0, 0, 0, NULL, 75, 500, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98396687', 60166857, 'Teaon', 'DOL.GS.GameNPC', '', '33738', '50', '46', 191, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 242, 0, 0, 0, 0, 0, 0, 0, NULL, 60, 800, 0, 0, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
-	('98396688', 60166858, 'TeÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´Bui', 'DOL.GS.GameNPC', '', '621', '60', '36', 200, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 252, 36, 72, 36, 30, 30, 30, 30, NULL, 36, 288, 0, 0, 3000, 3000, 34, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
+	('98396688', 60166858, 'TeÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´Bui', 'DOL.GS.GameNPC', '', '621', '60', '36', 200, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 252, 36, 72, 36, 30, 30, 30, 30, NULL, 36, 288, 0, 0, 3000, 3000, 34, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98396689', 60166859, 'Teddry', 'DOL.GS.Recharger', 'Recharger', '734', '50', '59', 200, 'ef03ec3a-6517-49ce-8429-9691d0db1006', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 413, 59, 118, 59, 30, 30, 30, 30, NULL, 59, 472, 0, 6, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98396690', 60166860, 'teetering block of ice', 'DOL.GS.GameNPC', '', '126', '52', '30', 200, '', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 210, 30, 30, 30, 30, 30, 30, 30, NULL, 30, 240, 0, 4, 0, 0, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
 	('98396691', 60166861, 'Tegau', 'DOL.GS.Recharger', 'Recharger', '387', '52', '39', 200, '9c7de6f0-7d1a-4e6d-b30d-15ad5216440a', '', 0, 2, NULL, NULL, NULL, NULL, NULL, NULL, 273, 39, 78, 39, 30, 30, 30, 30, NULL, 39, 312, 0, 0, 3000, 3000, 0, 1, 'Templated - AutoScript;', NULL, NULL, NULL, NULL, 0, '2000-01-01 00:00:00'),
